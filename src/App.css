@@ -1,38 +1,39 @@
-.App {
+/* App.css */
+
+.app-container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pokemon-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.pokemon-card-container {
+  margin:10px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-card {
+  width: 100%;
+  height: auto;
+  /* Add any other styling you need for the PokemonCard component */
+}
+
+/* Additional styling for the PokemonDetailModal container (optional) */
+.pokemon-detail-modal-container {
+  margin-top: 20px;
+}
+
+.pokemon-detail-modal {
+  /* Add any styling you need for the PokemonDetailModal component */
 }

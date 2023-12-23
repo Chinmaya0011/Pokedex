@@ -1,0 +1,49 @@
+/* src/components/PokemonDetailModal.css */
+
+.pokemon-detail-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4e553a;
+  border: 1px solid #ddd;
+  color: wheat;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 999;
+}
+
+.modal-title {
+  margin-bottom: 10px;
+  color: #4da1ab;
+}
+
+.modal-info {
+  margin-bottom: 5px;
+  color: hsl(0, 100%, 98%);
+}
+
+.modal-close-button {
+  position: absolute;
+  top: -8px; /* Adjust the top position as needed */
+  right: -8px; /* Adjust the left position as needed */
+  background-color: #e90c0c;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  border-radius: 70%;
+  cursor: pointer;
+}
+.modal-close-button:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+/* src/components/PokemonDetailModal.css */
+
+.modal-image {
+  /* Your styling for the modal image goes here */
+  max-width: 100px; /* Example: Make sure the image doesn't exceed its container width */
+  height: 100px; /* Maintain aspect ratio */
+}
+

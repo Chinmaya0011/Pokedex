@@ -1,0 +1,23 @@
+/* src/components/RealTimeTypeFilter.css */
+
+.type-filter {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    /* You can add additional styles for the select dropdown if needed */
+  }
+  
